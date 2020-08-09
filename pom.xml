@@ -10,8 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>microservice-discovery-eureka</module>        <!-- Eureka Server -->
+        <module>microservice-discovery-eureka-repli</module>        <!-- Eureka Server -->
         <module>microservice-simple-provider-user</module>    <!-- 简单服务提供者 -->
         <module>microservice-simple-customer-movie</module>    <!-- 简单服务消费者 -->
+        <module>microservice-customer-movie</module>    <!-- 简单服务消费者 -->
         <module>microservice-provider-user</module>
     </modules>
 
