@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.lyming</groupId>
+    <artifactId>edgware-learning</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>microservice-discovery-eureka</module>        <!-- Eureka Server -->
+        <module>microservice-simple-provider-user</module>    <!-- 简单服务提供者 -->
+        <module>microservice-simple-customer-movie</module>    <!-- 简单服务消费者 -->
+        <module>microservice-provider-user</module>
+    </modules>
+
+
+</project>
