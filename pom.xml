@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>microservice-discovery-eureka</module>        <!-- Eureka Server -->
-        <module>microservice-discovery-eureka-authenticating</module>        <!-- Eureka Server -->
+        <module>microservice-discovery-eureka-authenticating</module>        <!-- 带基础认证的Eureka Server -->
         <module>microservice-discovery-eureka-repli</module>        <!-- Eureka Server -->
         <module>microservice-simple-provider-user</module>    <!-- 简单服务提供者 -->
         <module>microservice-simple-customer-movie</module>    <!-- 简单服务消费者 -->
@@ -20,6 +20,8 @@
         <module>microservice-provider-user-my-metadata</module>
         <module>microservice-simple-customer-movie-understanding-metadata</module>
         <module>microservice-customer-movie-ribbon</module>
+        <module>microservice-customer-movie-ribbon-customizing</module>   <!-- 自定义Ribbon配置 -->
+        <module>microservice-customer-movie-feign</module>   <!-- 加入feign -->
     </modules>
 
 
